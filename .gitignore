@@ -1,0 +1,33 @@
+# --- System Files ---
+__pycache__/
+*.py[cod]
+.vscode/
+
+# --- Environment ---
+venv/
+env/
+
+# --- Dataset & Heavy Media ---
+dataset/
+dataset_mentah/
+dataset_video/
+*.zip
+*.mp4
+suara_cache/
+hasil_visual_rcnn/
+asset laporan/
+checkpoints/
+
+# --- Training Logs ---
+runs/
+wandb/
+
+# --- Large Models (>100MB) ---
+*.pth
+# Kecuali lu pake Git LFS, file .pth (R-CNN) bakal ditolak GitHub.
+# YOLO (.pt) aman karena kecil.
+
+# --- Base Models (Bisa download sendiri) ---
+yolov8n.pt
+yolov10n.pt
+yolo11n.pt

@@ -17,8 +17,9 @@ suara_cache/
 hasil_visual_rcnn/
 asset laporan/
 checkpoints/
+*.pt
+*.pth
 final_models/
-
 # --- Training Logs ---
 runs/
 wandb/
